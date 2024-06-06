@@ -1,9 +1,27 @@
-title{
-    color: black;
+header {
+    background-color: black;
+    padding: 20px 30px;
+
 }
-p{
-    color: fuchsia;
+
+.logo {
+    width: 200px
 }
-body{
-    background-color: aqua;
+
+.container {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
 }
