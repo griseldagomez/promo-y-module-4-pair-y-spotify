@@ -60,3 +60,27 @@ h5 {
     font-size: 28px;
     margin: 0;
 }
+
+.hambuerguesa {
+    display: none;
+}
+
+
+
+@media all and (min-width: 320px) {
+    .hambuerguesa {
+        height: 20px;
+    }
+    .menu {
+        display: none;
+    
+    }
+}
+@media all and (min-width: 736px) {
+    .hambuerguesa {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+}
