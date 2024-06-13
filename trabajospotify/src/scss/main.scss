@@ -1,14 +1,13 @@
+@import 'layout/header';
 @import 'layout/bluesection';
+
+
 
 :root {
     --font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: black;
-    padding: 20px 30px;
 
-}
 
 .logo {
     width: 200px
@@ -18,7 +17,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Quitar wrap */
     position: sticky;
     top: 0;
 }
@@ -27,7 +25,6 @@ header {
     display: flex;
     list-style: none;
     align-items: center;
-    /* Quitar wrap */
     gap: 20px;
 }
 
@@ -40,19 +37,13 @@ header {
     font-size: 20px;
 }
 
-main {
-    height: 50vh;
-    background-color: rgb(14, 117, 181);
-    display: flex;
-    display: block;
-}
-
 h1 {
     font-family: var(--font-family);
     font-weight: 700;
     color: white;
     font-size: 80px;
     margin: 0;
+    padding: 45px;
 }
 
 h5 {
@@ -61,9 +52,9 @@ h5 {
     color: white;
     font-size: 28px;
     margin: 0;
+    padding: 45px;
 }
 
-/* --HAMBURGUESA-- no hambuerguesa. y Hay que apuntar a la imagen para cambiar el height, no al div */
 .hamburguesa img {
     height: 20px;
 }
