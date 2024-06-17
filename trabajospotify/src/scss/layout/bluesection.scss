@@ -1,40 +1,8 @@
 main {
-<<<<<<< HEAD
-  height: 70dvh;
-  background-color: rgb(49, 134, 187);
-  display: flex;
-  display: block;
-  overflow: hidden;
-}
-
-.imagen-chica {
-  height: 0;
-  position: static;
-  width: min-content;
-  margin-left: auto;
-}
-.boton-seccion-azul {
-  border-radius: 20px;
-  background: rgb(35, 169, 35);
-  border: none;
-  padding: 10px 35px;
-  font-size: medium;
-  color: white;
-  margin: 20px;
-  cursor: pointer;
-}
-.terminos-y-condiciones {
-  margin: 20px;
-  color: white;
-  margin-top: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-=======
    background-color: rgb(14, 117, 181);
    display: flex;
    display: block;
    background-image: url('../images/premium_dancer.png');
    background-position: bottom right;
    background-repeat: no-repeat;
->>>>>>> d1d8df77bac3d53d25f0f8282f3db1c09268e84b
 }
