@@ -1,10 +1,25 @@
+<<<<<<< HEAD
 @import "layout/header";
 @import "layout/bluesection";
+=======
+@import 'layout/header';
+@import 'layout/bluesection';
+@import 'layout/section';
+
+
+>>>>>>> d1d8df77bac3d53d25f0f8282f3db1c09268e84b
 
 :root {
   --font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+html {
+    font-family: var(--font-family);
+}
+
+>>>>>>> d1d8df77bac3d53d25f0f8282f3db1c09268e84b
 .logo {
   width: 200px;
 }
